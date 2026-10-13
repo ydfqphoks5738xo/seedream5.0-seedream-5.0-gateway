@@ -1,31 +1,29 @@
 {
-  "id": "seedream-5-0-pro",
+  "id": "gemini-3-pro-image-preview",
+  "alias": "nano-banana-pro-ext",
+  "official": "gemini-3-pro-image-preview-official",
   "source": "https://apimart.ai/en/pricing",
-  "extracted_at": "2026-10-13T02:09:40Z",
+  "extracted_at": "2026-10-13T06:48:47Z",
   "prices": {
     "default": {
-      "list": 0.045,
-      "effective": 0.036
+      "list": 0.0375,
+      "effective": 0.03
     },
-    "1K": {
-      "list": 0.0365625,
-      "effective": 0.02925
-    },
-    "1K-layer": {
-      "list": 0.01828125,
-      "effective": 0.014625
-    },
-    "2K": {
-      "list": 0.073125,
-      "effective": 0.0585
-    },
-    "2K-layer": {
-      "list": 0.0365625,
-      "effective": 0.02925
+    "4K": {
+      "list": 0.05,
+      "effective": 0.04
     }
   },
-  "rates": {},
-  "unit": "usd_per_image",
-  "hook": "from $0.014625 per image (1K-layer $0.014625 · 1K $0.02925 · 2K-layer $0.02925)",
-  "model_page": "https://apimart.ai/model/seedream-5-0-pro"
+  "official_prices": {
+    "per_million_tokens": {
+      "effective": {
+        "text_input": 1.6,
+        "cached_text_input": 0,
+        "image_input": 1.6,
+        "cached_image_input": 0,
+        "text_output": 9.6,
+        "image_output": 96
+      }
+    }
+  }
 }
